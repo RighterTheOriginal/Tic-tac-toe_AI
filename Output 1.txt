@@ -1,0 +1,2047 @@
+/usr/local/bin/python3.9 /Users/prasunmukherjee/Desktop/Tic-tac-toe Artificial Intelligence/Artificial_Intelligence.py
+TIC TAC TOE
+
+Enter anything to start: !unlock d3v t00lz
+>>> show thinking
+>>> function scores
+>>> always continue
+>>> this letter
+X
+>>> back
+The positions are as follows:
+ 1 | 2 | 3
+--- --- ---
+ 4 | 5 | 6
+--- --- ---
+ 7 | 8 | 9
+
+   |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+[<function possible_win at 0x7fb36d4fe940>, <function next_lose at 0x7fb36d4fe8b0>, <function just_opposite at 0x7fb36d4feca0>, <function centre at 0x7fb36d4fea60>, <function possible_lose at 0x7fb36d4fe9d0>, <function anti_flank at 0x7fb36d4fec10>, <function next_win at 0x7fb36d4fe820>, <function flank at 0x7fb36d4feb80>]
+Choose position to place X (Enter HELP for positions): 1
+ X |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+Computer choice: Position 9
+ X |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   | O
+
+Choose position to place X (Enter HELP for positions): 3
+ X |   | X
+--- --- ---
+   |   |
+--- --- ---
+   |   | O
+
+Computer choice: Position 7
+ X |   | X
+--- --- ---
+   |   |
+--- --- ---
+ O |   | O
+
+Choose position to place X (Enter HELP for positions): 2
+ X | X | X
+--- --- ---
+   |   |
+--- --- ---
+ O |   | O
+
+You win!
+
+The positions are as follows:
+ 1 | 2 | 3
+--- --- ---
+ 4 | 5 | 6
+--- --- ---
+ 7 | 8 | 9
+
+   |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+<function next_win at 0x7fb36d4fe820> -2
+<function next_lose at 0x7fb36d4fe8b0> -64
+<function possible_win at 0x7fb36d4fe940> -128
+<function possible_lose at 0x7fb36d4fe9d0> -8
+<function centre at 0x7fb36d4fea60> -16
+<function flank at 0x7fb36d4feb80> -1
+<function anti_flank at 0x7fb36d4fec10> -4
+<function just_opposite at 0x7fb36d4feca0> -32
+[<function next_win at 0x7fb36d4fe820>, <function just_opposite at 0x7fb36d4feca0>, <function possible_win at 0x7fb36d4fe940>, <function flank at 0x7fb36d4feb80>, <function anti_flank at 0x7fb36d4fec10>, <function possible_lose at 0x7fb36d4fe9d0>, <function next_lose at 0x7fb36d4fe8b0>, <function centre at 0x7fb36d4fea60>]
+Choose position to place X (Enter HELP for positions): 1
+ X |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+Computer choice: Position 9
+ X |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   | O
+
+Choose position to place X (Enter HELP for positions): 3
+ X |   | X
+--- --- ---
+   |   |
+--- --- ---
+   |   | O
+
+Computer choice: Position 7
+ X |   | X
+--- --- ---
+   |   |
+--- --- ---
+ O |   | O
+
+Choose position to place X (Enter HELP for positions): 2
+ X | X | X
+--- --- ---
+   |   |
+--- --- ---
+ O |   | O
+
+You win!
+
+The positions are as follows:
+ 1 | 2 | 3
+--- --- ---
+ 4 | 5 | 6
+--- --- ---
+ 7 | 8 | 9
+
+   |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+<function next_win at 0x7fb36d4fe820> -130
+<function next_lose at 0x7fb36d4fe8b0> -66
+<function possible_win at 0x7fb36d4fe940> -160
+<function possible_lose at 0x7fb36d4fe9d0> -12
+<function centre at 0x7fb36d4fea60> -17
+<function flank at 0x7fb36d4feb80> -17
+<function anti_flank at 0x7fb36d4fec10> -12
+<function just_opposite at 0x7fb36d4feca0> -96
+[<function possible_win at 0x7fb36d4fe940>, <function possible_lose at 0x7fb36d4fe9d0>]
+Choose position to place X (Enter HELP for positions): 1
+ X |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+Computer choice: Position 9
+ X |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   | O
+
+Choose position to place X (Enter HELP for positions): 3
+ X |   | X
+--- --- ---
+   |   |
+--- --- ---
+   |   | O
+
+Computer choice: Position 5
+ X |   | X
+--- --- ---
+   | O |
+--- --- ---
+   |   | O
+
+Choose position to place X (Enter HELP for positions): 2
+ X | X | X
+--- --- ---
+   | O |
+--- --- ---
+   |   | O
+
+You win!
+
+The positions are as follows:
+ 1 | 2 | 3
+--- --- ---
+ 4 | 5 | 6
+--- --- ---
+ 7 | 8 | 9
+
+   |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+<function next_win at 0x7fb36d4fe820> -130
+<function next_lose at 0x7fb36d4fe8b0> -66
+<function possible_win at 0x7fb36d4fe940> -288
+<function possible_lose at 0x7fb36d4fe9d0> -76
+<function centre at 0x7fb36d4fea60> -17
+<function flank at 0x7fb36d4feb80> -17
+<function anti_flank at 0x7fb36d4fec10> -12
+<function just_opposite at 0x7fb36d4feca0> -96
+[<function anti_flank at 0x7fb36d4fec10>, <function centre at 0x7fb36d4fea60>, <function just_opposite at 0x7fb36d4feca0>, <function next_win at 0x7fb36d4fe820>, <function possible_lose at 0x7fb36d4fe9d0>, <function flank at 0x7fb36d4feb80>, <function next_lose at 0x7fb36d4fe8b0>]
+Choose position to place X (Enter HELP for positions): 1
+ X |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+Computer choice: Position 5
+ X |   |
+--- --- ---
+   | O |
+--- --- ---
+   |   |
+
+Choose position to place X (Enter HELP for positions): 3
+ X |   | X
+--- --- ---
+   | O |
+--- --- ---
+   |   |
+
+Computer choice: Position 7
+ X |   | X
+--- --- ---
+   | O |
+--- --- ---
+ O |   |
+
+Choose position to place X (Enter HELP for positions): 2
+ X | X | X
+--- --- ---
+   | O |
+--- --- ---
+ O |   |
+
+You win!
+
+The positions are as follows:
+ 1 | 2 | 3
+--- --- ---
+ 4 | 5 | 6
+--- --- ---
+ 7 | 8 | 9
+
+   |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+<function next_win at 0x7fb36d4fe820> -146
+<function next_lose at 0x7fb36d4fe8b0> -68
+<function possible_win at 0x7fb36d4fe940> -288
+<function possible_lose at 0x7fb36d4fe9d0> -84
+<function centre at 0x7fb36d4fea60> -81
+<function flank at 0x7fb36d4feb80> -21
+<function anti_flank at 0x7fb36d4fec10> -140
+<function just_opposite at 0x7fb36d4feca0> -128
+[<function flank at 0x7fb36d4feb80>, <function next_lose at 0x7fb36d4fe8b0>, <function next_win at 0x7fb36d4fe820>, <function possible_win at 0x7fb36d4fe940>, <function anti_flank at 0x7fb36d4fec10>, <function just_opposite at 0x7fb36d4feca0>, <function possible_lose at 0x7fb36d4fe9d0>]
+Choose position to place X (Enter HELP for positions): 1
+ X |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+Computer choice: Position 9
+ X |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   | O
+
+Choose position to place X (Enter HELP for positions): 3
+ X |   | X
+--- --- ---
+   |   |
+--- --- ---
+   |   | O
+
+Computer choice: Position 2
+ X | O | X
+--- --- ---
+   |   |
+--- --- ---
+   |   | O
+
+Choose position to place X (Enter HELP for positions): 7
+ X | O | X
+--- --- ---
+   |   |
+--- --- ---
+ X |   | O
+
+Computer choice: Position 5
+ X | O | X
+--- --- ---
+   | O |
+--- --- ---
+ X |   | O
+
+Choose position to place X (Enter HELP for positions): 4
+ X | O | X
+--- --- ---
+ X | O |
+--- --- ---
+ X |   | O
+
+You win!
+
+The positions are as follows:
+ 1 | 2 | 3
+--- --- ---
+ 4 | 5 | 6
+--- --- ---
+ 7 | 8 | 9
+
+   |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+<function next_win at 0x7fb36d4fe820> -178
+<function next_lose at 0x7fb36d4fe8b0> -132
+<function possible_win at 0x7fb36d4fe940> -304
+<function possible_lose at 0x7fb36d4fe9d0> -86
+<function centre at 0x7fb36d4fea60> -81
+<function flank at 0x7fb36d4feb80> -149
+<function anti_flank at 0x7fb36d4fec10> -148
+<function just_opposite at 0x7fb36d4feca0> -132
+[<function next_win at 0x7fb36d4fe820>, <function possible_lose at 0x7fb36d4fe9d0>, <function centre at 0x7fb36d4fea60>, <function next_lose at 0x7fb36d4fe8b0>, <function possible_win at 0x7fb36d4fe940>]
+Choose position to place X (Enter HELP for positions): 1
+ X |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+Computer choice: Position 5
+ X |   |
+--- --- ---
+   | O |
+--- --- ---
+   |   |
+
+Choose position to place X (Enter HELP for positions): 9
+ X |   |
+--- --- ---
+   | O |
+--- --- ---
+   |   | X
+
+Computer choice: Position 3
+ X |   | O
+--- --- ---
+   | O |
+--- --- ---
+   |   | X
+
+Choose position to place X (Enter HELP for positions): 7
+ X |   | O
+--- --- ---
+   | O |
+--- --- ---
+ X |   | X
+
+Computer choice: Position 6
+ X |   | O
+--- --- ---
+   | O | O
+--- --- ---
+ X |   | X
+
+Choose position to place X (Enter HELP for positions): 8
+ X |   | O
+--- --- ---
+   | O | O
+--- --- ---
+ X | X | X
+
+You win!
+
+The positions are as follows:
+ 1 | 2 | 3
+--- --- ---
+ 4 | 5 | 6
+--- --- ---
+ 7 | 8 | 9
+
+   |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+<function next_win at 0x7fb36d4fe820> -306
+<function next_lose at 0x7fb36d4fe8b0> -148
+<function possible_win at 0x7fb36d4fe940> -312
+<function possible_lose at 0x7fb36d4fe9d0> -150
+<function centre at 0x7fb36d4fea60> -113
+<function flank at 0x7fb36d4feb80> -149
+<function anti_flank at 0x7fb36d4fec10> -148
+<function just_opposite at 0x7fb36d4feca0> -132
+[<function possible_lose at 0x7fb36d4fe9d0>]
+Choose position to place X (Enter HELP for positions): 1
+ X |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+Computer choice: Position 2
+ X | O |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+Choose position to place X (Enter HELP for positions): 5
+ X | O |
+--- --- ---
+   | X |
+--- --- ---
+   |   |
+
+Computer choice: Position 4
+ X | O |
+--- --- ---
+ O | X |
+--- --- ---
+   |   |
+
+Choose position to place X (Enter HELP for positions): 9
+ X | O |
+--- --- ---
+ O | X |
+--- --- ---
+   |   | X
+
+You win!
+
+The positions are as follows:
+ 1 | 2 | 3
+--- --- ---
+ 4 | 5 | 6
+--- --- ---
+ 7 | 8 | 9
+
+   |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+<function next_win at 0x7fb36d4fe820> -306
+<function next_lose at 0x7fb36d4fe8b0> -148
+<function possible_win at 0x7fb36d4fe940> -312
+<function possible_lose at 0x7fb36d4fe9d0> -278
+<function centre at 0x7fb36d4fea60> -113
+<function flank at 0x7fb36d4feb80> -149
+<function anti_flank at 0x7fb36d4fec10> -148
+<function just_opposite at 0x7fb36d4feca0> -132
+[<function possible_lose at 0x7fb36d4fe9d0>, <function just_opposite at 0x7fb36d4feca0>, <function centre at 0x7fb36d4fea60>, <function anti_flank at 0x7fb36d4fec10>]
+Choose position to place X (Enter HELP for positions): 1
+ X |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+Computer choice: Position 9
+ X |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   | O
+
+Choose position to place X (Enter HELP for positions): 3
+ X |   | X
+--- --- ---
+   |   |
+--- --- ---
+   |   | O
+
+Computer choice: Position 7
+ X |   | X
+--- --- ---
+   |   |
+--- --- ---
+ O |   | O
+
+Choose position to place X (Enter HELP for positions): 2
+ X | X | X
+--- --- ---
+   |   |
+--- --- ---
+ O |   | O
+
+You win!
+
+The positions are as follows:
+ 1 | 2 | 3
+--- --- ---
+ 4 | 5 | 6
+--- --- ---
+ 7 | 8 | 9
+
+   |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+<function next_win at 0x7fb36d4fe820> -306
+<function next_lose at 0x7fb36d4fe8b0> -148
+<function possible_win at 0x7fb36d4fe940> -312
+<function possible_lose at 0x7fb36d4fe9d0> -406
+<function centre at 0x7fb36d4fea60> -145
+<function flank at 0x7fb36d4feb80> -149
+<function anti_flank at 0x7fb36d4fec10> -164
+<function just_opposite at 0x7fb36d4feca0> -196
+[<function anti_flank at 0x7fb36d4fec10>, <function flank at 0x7fb36d4feb80>, <function possible_win at 0x7fb36d4fe940>, <function next_win at 0x7fb36d4fe820>]
+Choose position to place X (Enter HELP for positions): 1
+ X |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+Computer choice: Position 7
+ X |   |
+--- --- ---
+   |   |
+--- --- ---
+ O |   |
+
+Choose position to place X (Enter HELP for positions): 3
+ X |   | X
+--- --- ---
+   |   |
+--- --- ---
+ O |   |
+
+Computer choice: Position 8
+ X |   | X
+--- --- ---
+   |   |
+--- --- ---
+ O | O |
+
+Choose position to place X (Enter HELP for positions): 2
+ X | X | X
+--- --- ---
+   |   |
+--- --- ---
+ O | O |
+
+You win!
+
+The positions are as follows:
+ 1 | 2 | 3
+--- --- ---
+ 4 | 5 | 6
+--- --- ---
+ 7 | 8 | 9
+
+   |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+<function next_win at 0x7fb36d4fe820> -322
+<function next_lose at 0x7fb36d4fe8b0> -148
+<function possible_win at 0x7fb36d4fe940> -344
+<function possible_lose at 0x7fb36d4fe9d0> -406
+<function centre at 0x7fb36d4fea60> -145
+<function flank at 0x7fb36d4feb80> -213
+<function anti_flank at 0x7fb36d4fec10> -292
+<function just_opposite at 0x7fb36d4feca0> -196
+[<function next_lose at 0x7fb36d4fe8b0>, <function centre at 0x7fb36d4fea60>]
+Choose position to place X (Enter HELP for positions): 1
+ X |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+Computer choice: Position 5
+ X |   |
+--- --- ---
+   | O |
+--- --- ---
+   |   |
+
+Choose position to place X (Enter HELP for positions): 3
+ X |   | X
+--- --- ---
+   | O |
+--- --- ---
+   |   |
+
+Computer choice: Position 2
+ X | O | X
+--- --- ---
+   | O |
+--- --- ---
+   |   |
+
+Choose position to place X (Enter HELP for positions): 8
+ X | O | X
+--- --- ---
+   | O |
+--- --- ---
+   | X |
+
+Computer choice: Position 6
+ X | O | X
+--- --- ---
+   | O | O
+--- --- ---
+   | X |
+
+Choose position to place X (Enter HELP for positions): 4
+ X | O | X
+--- --- ---
+ X | O | O
+--- --- ---
+   | X |
+
+Computer choice: Position 7
+ X | O | X
+--- --- ---
+ X | O | O
+--- --- ---
+ O | X |
+
+Choose position to place X (Enter HELP for positions): 9
+ X | O | X
+--- --- ---
+ X | O | O
+--- --- ---
+ O | X | X
+
+Draw!
+
+The positions are as follows:
+ 1 | 2 | 3
+--- --- ---
+ 4 | 5 | 6
+--- --- ---
+ 7 | 8 | 9
+
+   |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+<function next_win at 0x7fb36d4fe820> -322
+<function next_lose at 0x7fb36d4fe8b0> 236
+<function possible_win at 0x7fb36d4fe940> -344
+<function possible_lose at 0x7fb36d4fe9d0> -406
+<function centre at 0x7fb36d4fea60> 47
+<function flank at 0x7fb36d4feb80> -213
+<function anti_flank at 0x7fb36d4fec10> -292
+<function just_opposite at 0x7fb36d4feca0> -196
+[<function next_lose at 0x7fb36d4fe8b0>, <function centre at 0x7fb36d4fea60>]
+Choose position to place X (Enter HELP for positions): 1
+ X |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+Computer choice: Position 5
+ X |   |
+--- --- ---
+   | O |
+--- --- ---
+   |   |
+
+Choose position to place X (Enter HELP for positions): 9
+ X |   |
+--- --- ---
+   | O |
+--- --- ---
+   |   | X
+
+Computer choice: Position 3
+ X |   | O
+--- --- ---
+   | O |
+--- --- ---
+   |   | X
+
+Choose position to place X (Enter HELP for positions): 7
+ X |   | O
+--- --- ---
+   | O |
+--- --- ---
+ X |   | X
+
+Computer choice: Position 4
+ X |   | O
+--- --- ---
+ O | O |
+--- --- ---
+ X |   | X
+
+Choose position to place X (Enter HELP for positions): 8
+ X |   | O
+--- --- ---
+ O | O |
+--- --- ---
+ X | X | X
+
+You win!
+
+The positions are as follows:
+ 1 | 2 | 3
+--- --- ---
+ 4 | 5 | 6
+--- --- ---
+ 7 | 8 | 9
+
+   |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+<function next_win at 0x7fb36d4fe820> -322
+<function next_lose at 0x7fb36d4fe8b0> 108
+<function possible_win at 0x7fb36d4fe940> -344
+<function possible_lose at 0x7fb36d4fe9d0> -406
+<function centre at 0x7fb36d4fea60> -17
+<function flank at 0x7fb36d4feb80> -213
+<function anti_flank at 0x7fb36d4fec10> -292
+<function just_opposite at 0x7fb36d4feca0> -196
+[<function flank at 0x7fb36d4feb80>, <function next_lose at 0x7fb36d4fe8b0>, <function possible_win at 0x7fb36d4fe940>, <function next_win at 0x7fb36d4fe820>, <function centre at 0x7fb36d4fea60>, <function possible_lose at 0x7fb36d4fe9d0>, <function just_opposite at 0x7fb36d4feca0>, <function anti_flank at 0x7fb36d4fec10>]
+Choose position to place X (Enter HELP for positions): 1
+ X |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+Computer choice: Position 5
+ X |   |
+--- --- ---
+   | O |
+--- --- ---
+   |   |
+
+Choose position to place X (Enter HELP for positions): 9
+ X |   |
+--- --- ---
+   | O |
+--- --- ---
+   |   | X
+
+Computer choice: Position 7
+ X |   |
+--- --- ---
+   | O |
+--- --- ---
+ O |   | X
+
+Choose position to place X (Enter HELP for positions): 3
+ X |   | X
+--- --- ---
+   | O |
+--- --- ---
+ O |   | X
+
+Computer choice: Position 2
+ X | O | X
+--- --- ---
+   | O |
+--- --- ---
+ O |   | X
+
+Choose position to place X (Enter HELP for positions): 6
+ X | O | X
+--- --- ---
+   | O | X
+--- --- ---
+ O |   | X
+
+You win!
+
+The positions are as follows:
+ 1 | 2 | 3
+--- --- ---
+ 4 | 5 | 6
+--- --- ---
+ 7 | 8 | 9
+
+   |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+<function next_win at 0x7fb36d4fe820> -338
+<function next_lose at 0x7fb36d4fe8b0> 44
+<function possible_win at 0x7fb36d4fe940> -376
+<function possible_lose at 0x7fb36d4fe9d0> -410
+<function centre at 0x7fb36d4fea60> -25
+<function flank at 0x7fb36d4feb80> -341
+<function anti_flank at 0x7fb36d4fec10> -293
+<function just_opposite at 0x7fb36d4feca0> -198
+[<function next_lose at 0x7fb36d4fe8b0>, <function centre at 0x7fb36d4fea60>, <function just_opposite at 0x7fb36d4feca0>, <function anti_flank at 0x7fb36d4fec10>, <function next_win at 0x7fb36d4fe820>, <function flank at 0x7fb36d4feb80>, <function possible_win at 0x7fb36d4fe940>, <function possible_lose at 0x7fb36d4fe9d0>]
+Choose position to place X (Enter HELP for positions): 1
+ X |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+Computer choice: Position 5
+ X |   |
+--- --- ---
+   | O |
+--- --- ---
+   |   |
+
+Choose position to place X (Enter HELP for positions): 9
+ X |   |
+--- --- ---
+   | O |
+--- --- ---
+   |   | X
+
+Computer choice: Position 8
+ X |   |
+--- --- ---
+   | O |
+--- --- ---
+   | O | X
+
+Choose position to place X (Enter HELP for positions): 2
+ X | X |
+--- --- ---
+   | O |
+--- --- ---
+   | O | X
+
+Computer choice: Position 3
+ X | X | O
+--- --- ---
+   | O |
+--- --- ---
+   | O | X
+
+Choose position to place X (Enter HELP for positions): 7
+ X | X | O
+--- --- ---
+   | O |
+--- --- ---
+ X | O | X
+
+Computer choice: Position 4
+ X | X | O
+--- --- ---
+ O | O |
+--- --- ---
+ X | O | X
+
+Choose position to place X (Enter HELP for positions): 6
+ X | X | O
+--- --- ---
+ O | O | X
+--- --- ---
+ X | O | X
+
+Draw!
+
+The positions are as follows:
+ 1 | 2 | 3
+--- --- ---
+ 4 | 5 | 6
+--- --- ---
+ 7 | 8 | 9
+
+   |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+<function next_win at 0x7fb36d4fe820> -314
+<function next_lose at 0x7fb36d4fe8b0> 428
+<function possible_win at 0x7fb36d4fe940> -370
+<function possible_lose at 0x7fb36d4fe9d0> -407
+<function centre at 0x7fb36d4fea60> 167
+<function flank at 0x7fb36d4feb80> -329
+<function anti_flank at 0x7fb36d4fec10> -245
+<function just_opposite at 0x7fb36d4feca0> -102
+[<function next_lose at 0x7fb36d4fe8b0>, <function centre at 0x7fb36d4fea60>, <function just_opposite at 0x7fb36d4feca0>, <function anti_flank at 0x7fb36d4fec10>, <function next_win at 0x7fb36d4fe820>, <function flank at 0x7fb36d4feb80>, <function possible_win at 0x7fb36d4fe940>, <function possible_lose at 0x7fb36d4fe9d0>]
+Choose position to place X (Enter HELP for positions): 1
+ X |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+Computer choice: Position 5
+ X |   |
+--- --- ---
+   | O |
+--- --- ---
+   |   |
+
+Choose position to place X (Enter HELP for positions): 3
+ X |   | X
+--- --- ---
+   | O |
+--- --- ---
+   |   |
+
+Computer choice: Position 2
+ X | O | X
+--- --- ---
+   | O |
+--- --- ---
+   |   |
+
+Choose position to place X (Enter HELP for positions): 8
+ X | O | X
+--- --- ---
+   | O |
+--- --- ---
+   | X |
+
+Computer choice: Position 9
+ X | O | X
+--- --- ---
+   | O |
+--- --- ---
+   | X | O
+
+Choose position to place X (Enter HELP for positions): 4
+ X | O | X
+--- --- ---
+ X | O |
+--- --- ---
+   | X | O
+
+Computer choice: Position 7
+ X | O | X
+--- --- ---
+ X | O |
+--- --- ---
+ O | X | O
+
+Choose position to place X (Enter HELP for positions): 6
+ X | O | X
+--- --- ---
+ X | O | X
+--- --- ---
+ O | X | O
+
+Draw!
+
+The positions are as follows:
+ 1 | 2 | 3
+--- --- ---
+ 4 | 5 | 6
+--- --- ---
+ 7 | 8 | 9
+
+   |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+<function next_win at 0x7fb36d4fe820> -290
+<function next_lose at 0x7fb36d4fe8b0> 812
+<function possible_win at 0x7fb36d4fe940> -364
+<function possible_lose at 0x7fb36d4fe9d0> -404
+<function centre at 0x7fb36d4fea60> 359
+<function flank at 0x7fb36d4feb80> -317
+<function anti_flank at 0x7fb36d4fec10> -197
+<function just_opposite at 0x7fb36d4feca0> -6
+[<function next_lose at 0x7fb36d4fe8b0>, <function centre at 0x7fb36d4fea60>, <function just_opposite at 0x7fb36d4feca0>, <function anti_flank at 0x7fb36d4fec10>, <function next_win at 0x7fb36d4fe820>, <function flank at 0x7fb36d4feb80>, <function possible_win at 0x7fb36d4fe940>, <function possible_lose at 0x7fb36d4fe9d0>]
+Choose position to place X (Enter HELP for positions): 5
+   |   |
+--- --- ---
+   | X |
+--- --- ---
+   |   |
+
+Computer choice: Position 6
+   |   |
+--- --- ---
+   | X | O
+--- --- ---
+   |   |
+
+Choose position to place X (Enter HELP for positions): 9
+   |   |
+--- --- ---
+   | X | O
+--- --- ---
+   |   | X
+
+Computer choice: Position 1
+ O |   |
+--- --- ---
+   | X | O
+--- --- ---
+   |   | X
+
+Choose position to place X (Enter HELP for positions): 7
+ O |   |
+--- --- ---
+   | X | O
+--- --- ---
+ X |   | X
+
+Computer choice: Position 3
+ O |   | O
+--- --- ---
+   | X | O
+--- --- ---
+ X |   | X
+
+Choose position to place X (Enter HELP for positions): 8
+ O |   | O
+--- --- ---
+   | X | O
+--- --- ---
+ X | X | X
+
+You win!
+
+The positions are as follows:
+ 1 | 2 | 3
+--- --- ---
+ 4 | 5 | 6
+--- --- ---
+ 7 | 8 | 9
+
+   |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+<function next_win at 0x7fb36d4fe820> -298
+<function next_lose at 0x7fb36d4fe8b0> 684
+<function possible_win at 0x7fb36d4fe940> -366
+<function possible_lose at 0x7fb36d4fe9d0> -405
+<function centre at 0x7fb36d4fea60> 295
+<function flank at 0x7fb36d4feb80> -321
+<function anti_flank at 0x7fb36d4fec10> -213
+<function just_opposite at 0x7fb36d4feca0> -38
+[<function next_lose at 0x7fb36d4fe8b0>, <function centre at 0x7fb36d4fea60>, <function just_opposite at 0x7fb36d4feca0>, <function anti_flank at 0x7fb36d4fec10>, <function next_win at 0x7fb36d4fe820>, <function flank at 0x7fb36d4feb80>, <function possible_win at 0x7fb36d4fe940>]
+Choose position to place X (Enter HELP for positions): 5
+   |   |
+--- --- ---
+   | X |
+--- --- ---
+   |   |
+
+Computer choice: Position 8
+   |   |
+--- --- ---
+   | X |
+--- --- ---
+   | O |
+
+Choose position to place X (Enter HELP for positions): 9
+   |   |
+--- --- ---
+   | X |
+--- --- ---
+   | O | X
+
+Computer choice: Position 1
+ O |   |
+--- --- ---
+   | X |
+--- --- ---
+   | O | X
+
+Choose position to place X (Enter HELP for positions): 3
+ O |   | X
+--- --- ---
+   | X |
+--- --- ---
+   | O | X
+
+Computer choice: Position 7
+ O |   | X
+--- --- ---
+   | X |
+--- --- ---
+ O | O | X
+
+Choose position to place X (Enter HELP for positions): 6
+ O |   | X
+--- --- ---
+   | X | X
+--- --- ---
+ O | O | X
+
+You win!
+
+The positions are as follows:
+ 1 | 2 | 3
+--- --- ---
+ 4 | 5 | 6
+--- --- ---
+ 7 | 8 | 9
+
+   |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+<function next_win at 0x7fb36d4fe820> -306
+<function next_lose at 0x7fb36d4fe8b0> 556
+<function possible_win at 0x7fb36d4fe940> -368
+<function possible_lose at 0x7fb36d4fe9d0> -405
+<function centre at 0x7fb36d4fea60> 231
+<function flank at 0x7fb36d4feb80> -325
+<function anti_flank at 0x7fb36d4fec10> -229
+<function just_opposite at 0x7fb36d4feca0> -70
+[<function next_lose at 0x7fb36d4fe8b0>, <function centre at 0x7fb36d4fea60>, <function just_opposite at 0x7fb36d4feca0>, <function anti_flank at 0x7fb36d4fec10>, <function next_win at 0x7fb36d4fe820>, <function flank at 0x7fb36d4feb80>]
+Choose position to place X (Enter HELP for positions): 5
+   |   |
+--- --- ---
+   | X |
+--- --- ---
+   |   |
+
+Computer choice: Position 2
+   | O |
+--- --- ---
+   | X |
+--- --- ---
+   |   |
+
+Choose position to place X (Enter HELP for positions): 1
+ X | O |
+--- --- ---
+   | X |
+--- --- ---
+   |   |
+
+Computer choice: Position 9
+ X | O |
+--- --- ---
+   | X |
+--- --- ---
+   |   | O
+
+Choose position to place X (Enter HELP for positions): 7
+ X | O |
+--- --- ---
+   | X |
+--- --- ---
+ X |   | O
+
+Computer choice: Position 3
+ X | O | O
+--- --- ---
+   | X |
+--- --- ---
+ X |   | O
+
+Choose position to place X (Enter HELP for positions): 4
+ X | O | O
+--- --- ---
+ X | X |
+--- --- ---
+ X |   | O
+
+You win!
+
+The positions are as follows:
+ 1 | 2 | 3
+--- --- ---
+ 4 | 5 | 6
+--- --- ---
+ 7 | 8 | 9
+
+   |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+<function next_win at 0x7fb36d4fe820> -314
+<function next_lose at 0x7fb36d4fe8b0> 428
+<function possible_win at 0x7fb36d4fe940> -368
+<function possible_lose at 0x7fb36d4fe9d0> -405
+<function centre at 0x7fb36d4fea60> 167
+<function flank at 0x7fb36d4feb80> -329
+<function anti_flank at 0x7fb36d4fec10> -245
+<function just_opposite at 0x7fb36d4feca0> -102
+[<function next_lose at 0x7fb36d4fe8b0>, <function centre at 0x7fb36d4fea60>, <function just_opposite at 0x7fb36d4feca0>, <function anti_flank at 0x7fb36d4fec10>, <function next_win at 0x7fb36d4fe820>]
+Choose position to place X (Enter HELP for positions): 5
+   |   |
+--- --- ---
+   | X |
+--- --- ---
+   |   |
+
+Computer choice: Position 1
+ O |   |
+--- --- ---
+   | X |
+--- --- ---
+   |   |
+
+Choose position to place X (Enter HELP for positions): 9
+ O |   |
+--- --- ---
+   | X |
+--- --- ---
+   |   | X
+
+Computer choice: Position 7
+ O |   |
+--- --- ---
+   | X |
+--- --- ---
+ O |   | X
+
+Choose position to place X (Enter HELP for positions): 4
+ O |   |
+--- --- ---
+ X | X |
+--- --- ---
+ O |   | X
+
+Computer choice: Position 6
+ O |   |
+--- --- ---
+ X | X | O
+--- --- ---
+ O |   | X
+
+Choose position to place X (Enter HELP for positions): 8
+ O |   |
+--- --- ---
+ X | X | O
+--- --- ---
+ O | X | X
+
+Computer choice: Position 2
+ O | O |
+--- --- ---
+ X | X | O
+--- --- ---
+ O | X | X
+
+Choose position to place X (Enter HELP for positions): 3
+ O | O | X
+--- --- ---
+ X | X | O
+--- --- ---
+ O | X | X
+
+Draw!
+
+The positions are as follows:
+ 1 | 2 | 3
+--- --- ---
+ 4 | 5 | 6
+--- --- ---
+ 7 | 8 | 9
+
+   |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+<function next_win at 0x7fb36d4fe820> -290
+<function next_lose at 0x7fb36d4fe8b0> 812
+<function possible_win at 0x7fb36d4fe940> -368
+<function possible_lose at 0x7fb36d4fe9d0> -405
+<function centre at 0x7fb36d4fea60> 359
+<function flank at 0x7fb36d4feb80> -329
+<function anti_flank at 0x7fb36d4fec10> -197
+<function just_opposite at 0x7fb36d4feca0> -6
+[<function next_lose at 0x7fb36d4fe8b0>, <function centre at 0x7fb36d4fea60>, <function just_opposite at 0x7fb36d4feca0>, <function anti_flank at 0x7fb36d4fec10>, <function next_win at 0x7fb36d4fe820>]
+Choose position to place X (Enter HELP for positions): 5
+   |   |
+--- --- ---
+   | X |
+--- --- ---
+   |   |
+
+Computer choice: Position 6
+   |   |
+--- --- ---
+   | X | O
+--- --- ---
+   |   |
+
+Choose position to place X (Enter HELP for positions): 9
+   |   |
+--- --- ---
+   | X | O
+--- --- ---
+   |   | X
+
+Computer choice: Position 1
+ O |   |
+--- --- ---
+   | X | O
+--- --- ---
+   |   | X
+
+Choose position to place X (Enter HELP for positions): 7
+ O |   |
+--- --- ---
+   | X | O
+--- --- ---
+ X |   | X
+
+Computer choice: Position 3
+ O |   | O
+--- --- ---
+   | X | O
+--- --- ---
+ X |   | X
+
+Choose position to place X (Enter HELP for positions): 8
+ O |   | O
+--- --- ---
+   | X | O
+--- --- ---
+ X | X | X
+
+You win!
+
+The positions are as follows:
+ 1 | 2 | 3
+--- --- ---
+ 4 | 5 | 6
+--- --- ---
+ 7 | 8 | 9
+
+   |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+<function next_win at 0x7fb36d4fe820> -298
+<function next_lose at 0x7fb36d4fe8b0> 684
+<function possible_win at 0x7fb36d4fe940> -368
+<function possible_lose at 0x7fb36d4fe9d0> -405
+<function centre at 0x7fb36d4fea60> 295
+<function flank at 0x7fb36d4feb80> -329
+<function anti_flank at 0x7fb36d4fec10> -213
+<function just_opposite at 0x7fb36d4feca0> -38
+[<function next_win at 0x7fb36d4fe820>, <function just_opposite at 0x7fb36d4feca0>, <function possible_lose at 0x7fb36d4fe9d0>, <function next_lose at 0x7fb36d4fe8b0>, <function possible_win at 0x7fb36d4fe940>]
+Choose position to place X (Enter HELP for positions): 5
+   |   |
+--- --- ---
+   | X |
+--- --- ---
+   |   |
+
+Computer choice: Position 9
+   |   |
+--- --- ---
+   | X |
+--- --- ---
+   |   | O
+
+Choose position to place X (Enter HELP for positions): 7
+   |   |
+--- --- ---
+   | X |
+--- --- ---
+ X |   | O
+
+Computer choice: Position 3
+   |   | O
+--- --- ---
+   | X |
+--- --- ---
+ X |   | O
+
+Choose position to place X (Enter HELP for positions): 6
+   |   | O
+--- --- ---
+   | X | X
+--- --- ---
+ X |   | O
+
+Computer choice: Position 4
+   |   | O
+--- --- ---
+ O | X | X
+--- --- ---
+ X |   | O
+
+Choose position to place X (Enter HELP for positions): 2
+   | X | O
+--- --- ---
+ O | X | X
+--- --- ---
+ X |   | O
+
+Computer choice: Position 8
+   | X | O
+--- --- ---
+ O | X | X
+--- --- ---
+ X | O | O
+
+Choose position to place X (Enter HELP for positions): 1
+ X | X | O
+--- --- ---
+ O | X | X
+--- --- ---
+ X | O | O
+
+Draw!
+
+The positions are as follows:
+ 1 | 2 | 3
+--- --- ---
+ 4 | 5 | 6
+--- --- ---
+ 7 | 8 | 9
+
+   |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+<function next_win at 0x7fb36d4fe820> 86
+<function next_lose at 0x7fb36d4fe8b0> 732
+<function possible_win at 0x7fb36d4fe940> -344
+<function possible_lose at 0x7fb36d4fe9d0> -309
+<function centre at 0x7fb36d4fea60> 295
+<function flank at 0x7fb36d4feb80> -329
+<function anti_flank at 0x7fb36d4fec10> -213
+<function just_opposite at 0x7fb36d4feca0> 154
+[<function next_win at 0x7fb36d4fe820>, <function just_opposite at 0x7fb36d4feca0>, <function possible_lose at 0x7fb36d4fe9d0>, <function next_lose at 0x7fb36d4fe8b0>, <function possible_win at 0x7fb36d4fe940>]
+Choose position to place X (Enter HELP for positions): 5
+   |   |
+--- --- ---
+   | X |
+--- --- ---
+   |   |
+
+Computer choice: Position 9
+   |   |
+--- --- ---
+   | X |
+--- --- ---
+   |   | O
+
+Choose position to place X (Enter HELP for positions): 1
+ X |   |
+--- --- ---
+   | X |
+--- --- ---
+   |   | O
+
+Computer choice: Position 3
+ X |   | O
+--- --- ---
+   | X |
+--- --- ---
+   |   | O
+
+Choose position to place X (Enter HELP for positions): 6
+ X |   | O
+--- --- ---
+   | X | X
+--- --- ---
+   |   | O
+
+Computer choice: Position 4
+ X |   | O
+--- --- ---
+ O | X | X
+--- --- ---
+   |   | O
+
+Choose position to place X (Enter HELP for positions): 2
+ X | X | O
+--- --- ---
+ O | X | X
+--- --- ---
+   |   | O
+
+Computer choice: Position 8
+ X | X | O
+--- --- ---
+ O | X | X
+--- --- ---
+   | O | O
+
+Choose position to place X (Enter HELP for positions): 7
+ X | X | O
+--- --- ---
+ O | X | X
+--- --- ---
+ X | O | O
+
+Draw!
+
+The positions are as follows:
+ 1 | 2 | 3
+--- --- ---
+ 4 | 5 | 6
+--- --- ---
+ 7 | 8 | 9
+
+   |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+<function next_win at 0x7fb36d4fe820> 470
+<function next_lose at 0x7fb36d4fe8b0> 780
+<function possible_win at 0x7fb36d4fe940> -320
+<function possible_lose at 0x7fb36d4fe9d0> -213
+<function centre at 0x7fb36d4fea60> 295
+<function flank at 0x7fb36d4feb80> -329
+<function anti_flank at 0x7fb36d4fec10> -213
+<function just_opposite at 0x7fb36d4feca0> 346
+[<function next_win at 0x7fb36d4fe820>, <function just_opposite at 0x7fb36d4feca0>, <function possible_lose at 0x7fb36d4fe9d0>, <function next_lose at 0x7fb36d4fe8b0>, <function possible_win at 0x7fb36d4fe940>]
+Choose position to place X (Enter HELP for positions): 1
+ X |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+Computer choice: Position 9
+ X |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   | O
+
+Choose position to place X (Enter HELP for positions): 3
+ X |   | X
+--- --- ---
+   |   |
+--- --- ---
+   |   | O
+
+Computer choice: Position 7
+ X |   | X
+--- --- ---
+   |   |
+--- --- ---
+ O |   | O
+
+Choose position to place X (Enter HELP for positions): 2
+ X | X | X
+--- --- ---
+   |   |
+--- --- ---
+ O |   | O
+
+You win!
+
+The positions are as follows:
+ 1 | 2 | 3
+--- --- ---
+ 4 | 5 | 6
+--- --- ---
+ 7 | 8 | 9
+
+   |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+<function next_win at 0x7fb36d4fe820> 342
+<function next_lose at 0x7fb36d4fe8b0> 764
+<function possible_win at 0x7fb36d4fe940> -328
+<function possible_lose at 0x7fb36d4fe9d0> -245
+<function centre at 0x7fb36d4fea60> 295
+<function flank at 0x7fb36d4feb80> -329
+<function anti_flank at 0x7fb36d4fec10> -213
+<function just_opposite at 0x7fb36d4feca0> 282
+[<function next_lose at 0x7fb36d4fe8b0>, <function next_win at 0x7fb36d4fe820>, <function centre at 0x7fb36d4fea60>, <function just_opposite at 0x7fb36d4feca0>, <function anti_flank at 0x7fb36d4fec10>, <function possible_lose at 0x7fb36d4fe9d0>, <function possible_win at 0x7fb36d4fe940>, <function flank at 0x7fb36d4feb80>]
+Choose position to place X (Enter HELP for positions): 1
+ X |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+Computer choice: Position 5
+ X |   |
+--- --- ---
+   | O |
+--- --- ---
+   |   |
+
+Choose position to place X (Enter HELP for positions): 3
+ X |   | X
+--- --- ---
+   | O |
+--- --- ---
+   |   |
+
+Computer choice: Position 2
+ X | O | X
+--- --- ---
+   | O |
+--- --- ---
+   |   |
+
+Choose position to place X (Enter HELP for positions): 8
+ X | O | X
+--- --- ---
+   | O |
+--- --- ---
+   | X |
+
+Computer choice: Position 9
+ X | O | X
+--- --- ---
+   | O |
+--- --- ---
+   | X | O
+
+Choose position to place X (Enter HELP for positions): 4
+ X | O | X
+--- --- ---
+ X | O |
+--- --- ---
+   | X | O
+
+Computer choice: Position 7
+ X | O | X
+--- --- ---
+ X | O |
+--- --- ---
+ O | X | O
+
+Choose position to place X (Enter HELP for positions): 6
+ X | O | X
+--- --- ---
+ X | O | X
+--- --- ---
+ O | X | O
+
+Draw!
+
+The positions are as follows:
+ 1 | 2 | 3
+--- --- ---
+ 4 | 5 | 6
+--- --- ---
+ 7 | 8 | 9
+
+   |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+<function next_win at 0x7fb36d4fe820> 534
+<function next_lose at 0x7fb36d4fe8b0> 1148
+<function possible_win at 0x7fb36d4fe940> -322
+<function possible_lose at 0x7fb36d4fe9d0> -233
+<function centre at 0x7fb36d4fea60> 391
+<function flank at 0x7fb36d4feb80> -326
+<function anti_flank at 0x7fb36d4fec10> -189
+<function just_opposite at 0x7fb36d4feca0> 330
+[<function next_lose at 0x7fb36d4fe8b0>, <function next_win at 0x7fb36d4fe820>, <function centre at 0x7fb36d4fea60>, <function just_opposite at 0x7fb36d4feca0>, <function anti_flank at 0x7fb36d4fec10>, <function possible_lose at 0x7fb36d4fe9d0>, <function possible_win at 0x7fb36d4fe940>, <function flank at 0x7fb36d4feb80>]
+Choose position to place X (Enter HELP for positions): 1
+ X |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+Computer choice: Position 5
+ X |   |
+--- --- ---
+   | O |
+--- --- ---
+   |   |
+
+Choose position to place X (Enter HELP for positions): 9
+ X |   |
+--- --- ---
+   | O |
+--- --- ---
+   |   | X
+
+Computer choice: Position 6
+ X |   |
+--- --- ---
+   | O | O
+--- --- ---
+   |   | X
+
+Choose position to place X (Enter HELP for positions): 4
+ X |   |
+--- --- ---
+ X | O | O
+--- --- ---
+   |   | X
+
+Computer choice: Position 7
+ X |   |
+--- --- ---
+ X | O | O
+--- --- ---
+ O |   | X
+
+Choose position to place X (Enter HELP for positions): 3
+ X |   | X
+--- --- ---
+ X | O | O
+--- --- ---
+ O |   | X
+
+Computer choice: Position 2
+ X | O | X
+--- --- ---
+ X | O | O
+--- --- ---
+ O |   | X
+
+Choose position to place X (Enter HELP for positions): 8
+ X | O | X
+--- --- ---
+ X | O | O
+--- --- ---
+ O | X | X
+
+Draw!
+
+The positions are as follows:
+ 1 | 2 | 3
+--- --- ---
+ 4 | 5 | 6
+--- --- ---
+ 7 | 8 | 9
+
+   |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+<function next_win at 0x7fb36d4fe820> 726
+<function next_lose at 0x7fb36d4fe8b0> 1532
+<function possible_win at 0x7fb36d4fe940> -316
+<function possible_lose at 0x7fb36d4fe9d0> -221
+<function centre at 0x7fb36d4fea60> 487
+<function flank at 0x7fb36d4feb80> -323
+<function anti_flank at 0x7fb36d4fec10> -165
+<function just_opposite at 0x7fb36d4feca0> 378
+[<function next_lose at 0x7fb36d4fe8b0>, <function next_win at 0x7fb36d4fe820>, <function centre at 0x7fb36d4fea60>, <function just_opposite at 0x7fb36d4feca0>, <function anti_flank at 0x7fb36d4fec10>, <function possible_lose at 0x7fb36d4fe9d0>, <function possible_win at 0x7fb36d4fe940>, <function flank at 0x7fb36d4feb80>]
+Choose position to place X (Enter HELP for positions): 5
+   |   |
+--- --- ---
+   | X |
+--- --- ---
+   |   |
+
+Computer choice: Position 7
+   |   |
+--- --- ---
+   | X |
+--- --- ---
+ O |   |
+
+Choose position to place X (Enter HELP for positions): 1
+ X |   |
+--- --- ---
+   | X |
+--- --- ---
+ O |   |
+
+Computer choice: Position 9
+ X |   |
+--- --- ---
+   | X |
+--- --- ---
+ O |   | O
+
+Choose position to place X (Enter HELP for positions): 8
+ X |   |
+--- --- ---
+   | X |
+--- --- ---
+ O | X | O
+
+Computer choice: Position 2
+ X | O |
+--- --- ---
+   | X |
+--- --- ---
+ O | X | O
+
+Choose position to place X (Enter HELP for positions): 4
+ X | O |
+--- --- ---
+ X | X |
+--- --- ---
+ O | X | O
+
+Computer choice: Position 6
+ X | O |
+--- --- ---
+ X | X | O
+--- --- ---
+ O | X | O
+
+Choose position to place X (Enter HELP for positions): 3
+ X | O | X
+--- --- ---
+ X | X | O
+--- --- ---
+ O | X | O
+
+Draw!
+
+The positions are as follows:
+ 1 | 2 | 3
+--- --- ---
+ 4 | 5 | 6
+--- --- ---
+ 7 | 8 | 9
+
+   |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+<function next_win at 0x7fb36d4fe820> 918
+<function next_lose at 0x7fb36d4fe8b0> 1916
+<function possible_win at 0x7fb36d4fe940> -310
+<function possible_lose at 0x7fb36d4fe9d0> -209
+<function centre at 0x7fb36d4fea60> 583
+<function flank at 0x7fb36d4feb80> -320
+<function anti_flank at 0x7fb36d4fec10> -141
+<function just_opposite at 0x7fb36d4feca0> 426
+[<function next_lose at 0x7fb36d4fe8b0>, <function next_win at 0x7fb36d4fe820>, <function centre at 0x7fb36d4fea60>, <function just_opposite at 0x7fb36d4feca0>, <function anti_flank at 0x7fb36d4fec10>, <function possible_lose at 0x7fb36d4fe9d0>, <function possible_win at 0x7fb36d4fe940>, <function flank at 0x7fb36d4feb80>]
+Choose position to place X (Enter HELP for positions): 1
+ X |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+Computer choice: Position 5
+ X |   |
+--- --- ---
+   | O |
+--- --- ---
+   |   |
+
+Choose position to place X (Enter HELP for positions): 2
+ X | X |
+--- --- ---
+   | O |
+--- --- ---
+   |   |
+
+Computer choice: Position 3
+ X | X | O
+--- --- ---
+   | O |
+--- --- ---
+   |   |
+
+Choose position to place X (Enter HELP for positions): 7
+ X | X | O
+--- --- ---
+   | O |
+--- --- ---
+ X |   |
+
+Computer choice: Position 4
+ X | X | O
+--- --- ---
+ O | O |
+--- --- ---
+ X |   |
+
+Choose position to place X (Enter HELP for positions): 6
+ X | X | O
+--- --- ---
+ O | O | X
+--- --- ---
+ X |   |
+
+Computer choice: Position 9
+ X | X | O
+--- --- ---
+ O | O | X
+--- --- ---
+ X |   | O
+
+Choose position to place X (Enter HELP for positions): 8
+ X | X | O
+--- --- ---
+ O | O | X
+--- --- ---
+ X | X | O
+
+Draw!
+
+The positions are as follows:
+ 1 | 2 | 3
+--- --- ---
+ 4 | 5 | 6
+--- --- ---
+ 7 | 8 | 9
+
+   |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+<function next_win at 0x7fb36d4fe820> 1110
+<function next_lose at 0x7fb36d4fe8b0> 2300
+<function possible_win at 0x7fb36d4fe940> -304
+<function possible_lose at 0x7fb36d4fe9d0> -197
+<function centre at 0x7fb36d4fea60> 679
+<function flank at 0x7fb36d4feb80> -317
+<function anti_flank at 0x7fb36d4fec10> -117
+<function just_opposite at 0x7fb36d4feca0> 474
+[<function next_lose at 0x7fb36d4fe8b0>, <function next_win at 0x7fb36d4fe820>, <function centre at 0x7fb36d4fea60>, <function just_opposite at 0x7fb36d4feca0>, <function anti_flank at 0x7fb36d4fec10>, <function possible_lose at 0x7fb36d4fe9d0>, <function possible_win at 0x7fb36d4fe940>, <function flank at 0x7fb36d4feb80>]
+Choose position to place X (Enter HELP for positions): 2
+   | X |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+Computer choice: Position 5
+   | X |
+--- --- ---
+   | O |
+--- --- ---
+   |   |
+
+Choose position to place X (Enter HELP for positions): 1
+ X | X |
+--- --- ---
+   | O |
+--- --- ---
+   |   |
+
+Computer choice: Position 3
+ X | X | O
+--- --- ---
+   | O |
+--- --- ---
+   |   |
+
+Choose position to place X (Enter HELP for positions): 7
+ X | X | O
+--- --- ---
+   | O |
+--- --- ---
+ X |   |
+
+Computer choice: Position 4
+ X | X | O
+--- --- ---
+ O | O |
+--- --- ---
+ X |   |
+
+Choose position to place X (Enter HELP for positions): 6
+ X | X | O
+--- --- ---
+ O | O | X
+--- --- ---
+ X |   |
+
+Computer choice: Position 9
+ X | X | O
+--- --- ---
+ O | O | X
+--- --- ---
+ X |   | O
+
+Choose position to place X (Enter HELP for positions): 8
+ X | X | O
+--- --- ---
+ O | O | X
+--- --- ---
+ X | X | O
+
+Draw!
+
+The positions are as follows:
+ 1 | 2 | 3
+--- --- ---
+ 4 | 5 | 6
+--- --- ---
+ 7 | 8 | 9
+
+   |   |
+--- --- ---
+   |   |
+--- --- ---
+   |   |
+
+<function next_win at 0x7fb36d4fe820> 1302
+<function next_lose at 0x7fb36d4fe8b0> 2684
+<function possible_win at 0x7fb36d4fe940> -298
+<function possible_lose at 0x7fb36d4fe9d0> -185
+<function centre at 0x7fb36d4fea60> 775
+<function flank at 0x7fb36d4feb80> -314
+<function anti_flank at 0x7fb36d4fec10> -93
+<function just_opposite at 0x7fb36d4feca0> 522
+[<function next_lose at 0x7fb36d4fe8b0>, <function next_win at 0x7fb36d4fe820>, <function centre at 0x7fb36d4fea60>, <function just_opposite at 0x7fb36d4feca0>, <function anti_flank at 0x7fb36d4fec10>, <function possible_lose at 0x7fb36d4fe9d0>, <function possible_win at 0x7fb36d4fe940>, <function flank at 0x7fb36d4feb80>]
+Choose position to place X (Enter HELP for positions): Traceback (most recent call last):
+  File "/Users/prasunmukherjee/Desktop/Tic-tac-toe Artificial Intelligence/Artificial_Intelligence.py", line 563, in <module>
+    play(False, fxn_scores, forced_choice, show_think, proceed, letter_lock)  # Play without option of dev tools enabled
+  File "/Users/prasunmukherjee/Desktop/Tic-tac-toe Artificial Intelligence/Artificial_Intelligence.py", line 414, in play
+    board, available, move = place_piece(board, available, turn, ask, methods, move)  # Place a piece on the board
+  File "/Users/prasunmukherjee/Desktop/Tic-tac-toe Artificial Intelligence/Artificial_Intelligence.py", line 342, in place_piece
+    k = input("Choose position to place " + turn + " (Enter HELP for positions): ")  # Ask for input
+KeyboardInterrupt
+
+Process finished with exit code 130 (interrupted by signal 2: SIGINT)
